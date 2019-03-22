@@ -1,9 +1,9 @@
-![CustomStage Logo][imgLogo]
+<div style="text-align:center;display:block"><img src="https://i.imgur.com/kvAwJlm.png" width="250" height="250"></div>
 
 # CustomStage  [![Mentioned in Awesome JavaFX](https://awesome.re/mentioned-badge.svg)](https://github.com/mhrimaz/AwesomeJavaFX)
 A JavaFX undecorated stage which can fully be customized
 
-[![Latest Version](https://img.shields.io/github/release/Oshan96/CustomStage.svg)](https://github.com/Oshan96/CustomStage/releases)
+[![Download](https://api.bintray.com/packages/oshan96/CustomStage/lk.vivoxalabs.customstage/images/download.svg) ](https://bintray.com/oshan96/CustomStage/lk.vivoxalabs.customstage/_latestVersion)
 ![Licence(https://img.shields.io/github/license/Oshan96/CustomStage.svg)](https://img.shields.io/github/license/Oshan96/CustomStage.svg)
 [![Total Downloads](https://img.shields.io/github/downloads/Oshan96/CustomStage/total.svg)](https://github.com/Oshan96/CustomStage/releases)
 [![JitPack](https://jitpack.io/v/Oshan96/CustomStage.svg)](https://jitpack.io/#Oshan96/CustomStage)
@@ -18,6 +18,15 @@ A JavaFX undecorated stage which can fully be customized
 - [SceneManager](https://github.com/Oshan96/CustomStage/blob/master/src/main/java/lk/vivoxalabs/scenemanager/SceneManager.java)
 
 > ## Checkout the [CustomStage Wiki][wiki] for more examples and documentation.
+
+## Using CustomStage ? 
+
+- **Fork the repository** and update with this readme's [Projects using CustomStage](#projects-using-customstage) section in the following format adding your project details and do a **_Pull Request!_**
+
+> Project_Name : Brief_Description
+
+## Projects using CustomStage
+- [RentLio](https://github.com/Shehanka/RentLio) : This is a vehicle reservation system. Which is made with JavaFX and also using hibernate and RMI.
 
 ## Overview
 This CustomStage is a JavaFX undecorated Stage. To put it simple, CustomStage is a Window and you can add different views (FXML files)
@@ -46,7 +55,29 @@ So, CustomStage will get rid of all of these issues since it includes,
 
 ## How to use?
 
-- Latest (v1.3.1) CustomStage via JitPack (See the releases here : https://jitpack.io/#Oshan96/CustomStage)
+**Starting from version 1.3.1 CustomStage releases are/will be available through JCenter and MavenCentral**
+
+### Maven 
+
+```xml
+<dependency>
+    <groupId>lk.vivoxalabs.customstage</groupId>
+    <artifactId>CustomStage</artifactId>
+    <version>1.3.2</version>
+</dependency>
+```
+
+### Gradle 
+
+```
+  dependencies {
+    compile 'lk.vivoxalabs.customstage:CustomStage:1.3.2'
+  }
+```
+
+### Download via Jitpack (Will not be possible for releases after v1.3.1)
+
+- v1.3.1 CustomStage via JitPack (See the releases here : https://jitpack.io/#Oshan96/CustomStage)
 
 ### Gradle
 
@@ -90,19 +121,19 @@ dependencies {
 ```
 
 ### Or download and add as a dependancy to your project
-- **Binaries** can be found at [**CustomStage binaries**](https://github.com/Oshan96/CustomStage/releases)
+- **Binaries** can be found at [**CustomStage binaries**](https://bintray.com/oshan96/CustomStage/lk.vivoxalabs.customstage/_latestVersion)
 
 ## How to use a CustomStage?
 
-- An example is provided in [**How to use a CustomStage**](examples/v1.0.0/StageTest.java) for a complete implementation
+- An example is provided in [**How to use a CustomStage**](examples/v1_0_0/StageTest.java) for a complete implementation
 
 ![CustomStage](https://preview.ibb.co/mJrs2x/Custom_Stage.png)
 
-- To achieve transparency, see [**Transparent CustomStage**](examples/v1.0.0/TransparentStage.java)
+- To achieve transparency, see [**Transparent CustomStage**](examples/v1_0_0/TransparentStage.java)
 
 ![Transparent CustomStage](https://preview.ibb.co/bWvfpc/Transparent.png)
 
-- CustomStage with custom icons for (close,minimize,maximize/restore) buttons [**CustomStage with custom icons**](examples/v1.0.0/CustomIconStage.java)
+- CustomStage with custom icons for (close,minimize,maximize/restore) buttons [**CustomStage with custom icons**](examples/v1_0_0/CustomIconStage.java)
 
 ![CustomStage with custom icons](https://preview.ibb.co/jzJN2x/custom_Icon.png)
 
